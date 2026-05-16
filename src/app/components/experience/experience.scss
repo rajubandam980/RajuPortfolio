@@ -1,0 +1,95 @@
+.experience-section {
+  padding: 40px 8%;
+  background: #0f172a;
+  color: white;
+}
+
+.section-header {
+//   text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-tag {
+  color: #3b82f6;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+/* TIMELINE */
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 2px solid rgba(59,130,246,0.3);
+  padding-left: 40px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -52px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  background: #3b82f6;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(59,130,246,0.5);
+}
+
+/* CONTENT CARD */
+.timeline-content {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+}
+
+.timeline-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.company {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.duration {
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+/* LIST */
+.timeline-content ul {
+  padding-left: 20px;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .timeline {
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
