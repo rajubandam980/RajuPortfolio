@@ -11,7 +11,7 @@ import { Footer } from './components/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navbar, Hero, About, TechStack, Projects, Experience, Contact, Footer],
+  imports: [Navbar, Hero, About, Projects, Experience, Contact],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
